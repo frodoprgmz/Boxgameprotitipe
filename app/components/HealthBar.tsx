@@ -31,7 +31,9 @@ const HealthBar = ({ health, maxHealth = 100, label, isEnemy = false }: HealthBa
           }}
         ></div>
       </div>
-      <div className={styles.healthValue}>{health}/{maxHealth}</div>
+      <div className={styles.healthValue}>
+        {health.toFixed(1)}/{maxHealth.toFixed(1)}
+      </div>
     </div>
   );
 };
