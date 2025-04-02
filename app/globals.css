@@ -7,6 +7,9 @@
   --enemy-color: #4682b4;
   --health-bar-green: #4caf50;
   --health-bar-red: #f44336;
+  /* app/globals.css */
+  --font-retro: 'Press Start 2P', cursive;
+
 }
 
 * {
